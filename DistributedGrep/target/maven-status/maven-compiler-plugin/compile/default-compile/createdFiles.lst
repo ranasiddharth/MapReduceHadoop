@@ -1,0 +1,3 @@
+org/distributedgrep/GrepMapper.class
+org/distributedgrep/GrepJob.class
+org/distributedgrep/GrepReducer.class
