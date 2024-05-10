@@ -1,0 +1,3 @@
+org/invertedindex/InvertedIndexMapper.class
+org/invertedindex/InvertedIndexJob.class
+org/invertedindex/InvertedIndexReducer.class
