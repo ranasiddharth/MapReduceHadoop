@@ -13,7 +13,6 @@ public class InvertedIndexJob {
         Job job = Job.getInstance(conf, "inverted index");
         job.setJarByClass(InvertedIndexJob.class);
         job.setMapperClass(InvertedIndexMapper.class);
-        // Commend out this part if you want to use combiner. Mapper and Reducer input and outputs type matching might be needed in this case.
         //job.setCombinerClass(IntSumReducer.class);
         job.setReducerClass(InvertedIndexReducer.class);
         job.setOutputKeyClass(Text.class);
